@@ -33,7 +33,7 @@ module.exports = function (config) {
       file: 'code-coverage.xml',
       reporters: [ { type: 'cobertura' } ]
     },
-    reporters: ['progress', 'coverage'],
+    reporters: ['progress', 'coverage', 'kjhtml'],
     port: 9876,
     colors: true,
     logLevel: config.LOG_INFO,
